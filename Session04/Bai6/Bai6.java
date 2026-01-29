@@ -29,7 +29,7 @@ public class Bai6 {
         String finalReview;
         if (filteredReview.length() > 200) {
             int limit = 200;
-            
+
             while (limit > 0 && filteredReview.charAt(limit) != ' ') {
                 limit--;
             }
