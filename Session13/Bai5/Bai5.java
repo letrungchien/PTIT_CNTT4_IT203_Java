@@ -51,7 +51,7 @@ public class Bai5 {
             }
         }
     }
-    
+
     static void addPatient() {
         System.out.print("Nhập ID: ");
         String id = sc.nextLine();
